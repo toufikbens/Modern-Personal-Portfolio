@@ -24,7 +24,7 @@ navLinks.forEach((link) => {
 document.getElementById("current-year").textContent = new Date().getFullYear();
 
 document.getElementById("profile-link").addEventListener("click", () => {
-  window.open("https://codepen.io/toufikbens", "_blank", "noopener,noreferrer");
+  window.open("https://github.com/toufikbens", "_blank", "noopener,noreferrer");
 });
 
 const fadeElements = document.querySelectorAll(".fade-in");
